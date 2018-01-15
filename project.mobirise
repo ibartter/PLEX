@@ -19,7 +19,8 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "4.5.2",
     "uniqCompNum": 4,
@@ -41,8 +42,8 @@
             "showTitle": true,
             "showSubTitle": true,
             "labelsColor": "#232323",
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -53,12 +54,12 @@
             "overlayOpacity": 0.5
           },
           "title": "P.L.E.X. Neighborhood Association<br>",
-          "subtitle": "<br><span style=\"font-style: normal;\">Our community is concerned that this Draft GEIS fails to adequately analyze or address the impacts that this Brownfield has inflicted on our neighborhood. Though planners from quality engineering firms visited us, their plans do not reflect the needs of our community members or appropriately address this injury caused by this contamination and discriminatory investment throughout the history of this neighborhood.<br><br>Please fill out the form below with your comment to send it to the office of * about the future of the PLEX Bronfield.</span><br>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "subtitle": "<br><span style=\"font-style: normal;\">The current plans for the developing the Vacuum Oil Brownfield Opportunity Area will dramatically cut corners during cleanup, which will jeopardize the cleanup effectiveness and long-term safety of city residents, both nearby and downstream the Genesee River.<br>The city of Rochester must ensure the Vacuum Oil BOA cleanup project secures long-term safety and utilization for existing nearby residents, and that development of the area will not negatively impact community residents.</span><br><br><b><span style=\"font-style: normal;\">The most important community goals are:</span><br></b><br><span style=\"font-style: normal;\">1)&nbsp;<b>Safety</b> - Ensure the safest level of cleanup for contaminated sites and ensure that people whose health have been harmed by this contamination are accounted for and receive the benefits this opportunity will bring.</span><br><span style=\"font-style: normal;\">2)&nbsp;<b>Neighborhood Stabilization</b> - The BOA has now lead to rapid destabilization of the community through speculative developments. Much of our remaining community at risk of losing their homes. There many cases of nearly complete home remodeling projects being purchased at auction for back taxes.</span><br><span style=\"font-style: normal;\">3)&nbsp;<b>Corporate Accountability</b> - The long-term disruption caused by Vacuum Oil site and its owner ExxonMobil Corp. has injured the PLEX Neighborhood in many ways since its inception back in 1866.</span><br><span style=\"font-style: normal;\">4)&nbsp;<b>Neighborhood Maintenance Teams</b> - We need to create jobs for our young people. By developing ongoing workforce training programs we can help older homeowners while providing valuable training opportunities to our residents. There is a great need for trades work and our youth are often energized by working together to complete projects.<br>5)&nbsp;<b>P.L.E.X. Park</b> - In this brownfield opportunity area, there is much-needed space for children to play where they can be easily watched by their parents and grandparents.  The proposed park needs to be prioritized adequately planned for as a critical community revitalization projects.</span><br><span style=\"font-style: normal;\">6)&nbsp;<b>A Hardware Store</b> - Many of our homes are in critical need of repair but the nearest place to get critical supplies is a 15-minute drive. As attention gets diverted to the waterfront, much attention must be paid to encouraging foot traffic from the community.<br>7)&nbsp;A Supermarket - Our neighborhood is a food desert and has a critical need for affordable healthy food.<br>8)&nbsp;<b>History of Place</b> - We need to ensure that the as changes are made to our community that the history of the Vacuum Oil facility and its impact on our environment is not forgotten. We must design in physical memory of a place that has such incredible impacts on our community and society in general.<br>9)&nbsp;<b>Ongoing Community Engagement </b>- all parties involved with this VOBOA need to continually reach out to assure our needs are considered and that the safest most environmentally protective cleanup prescriptions are being followed.<br>10)&nbsp;<b>Nature Preserve</b> - In a city with such a vibrant history of urban ecology, a nature preserve would act as a landmark of sustainability, as well as an effective floodplain for river overflow.<br>11)&nbsp;<b>Raised Retaining Wall</b> - With the coming concerns of climate change as well as the historic flooding of the Genesee river, the community is concerned with the proposed plan to lower the flood wall.</span><br><span style=\"font-style: normal;\"><br></span>To support the PLEX neighborhood, please write a comment in the box below that includes a community goal. Your comment will be sent to:<br>City of Rochester<br>Office of City Planning<br>Diane Kirkmire<br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
           "form": {
             "action": "isabelle.bartter@numberninedesigns.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks you for supporting the future of the PLEX neighborhood!"
             },
             "fields": {
               "name": {
@@ -74,11 +75,11 @@
               "phone": {
                 "visible": false,
                 "title": "Phone",
-                "customTitle": "Phone"
+                "customTitle": "Re: Vacuum Oil BOA DEC Site #:C82819"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "Re: Vacuum Oil BOA DEC Site #:C82819"
               }
             }
           },
@@ -93,14 +94,19 @@
             },
             "SMALL": {
               "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#90a878"
             }
           }
         },
         {
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -121,6 +127,9 @@
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "text-align": "center"
+            },
+            "B": {
+              "font-size": "14px"
             }
           }
         }

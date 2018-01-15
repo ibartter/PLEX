@@ -3,8 +3,8 @@
     "name": "Site-01-11_2339",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
+      "name": "PLEX",
+      "title": "PLEX",
       "styling": {
         "primaryColor": "#c0a375",
         "secondaryColor": "#bfcecb",
@@ -59,7 +59,7 @@
           "form": {
             "action": "isabelle.bartter@numberninedesigns.com",
             "alerts": {
-              "success": "Thanks you for supporting the future of the PLEX neighborhood!"
+              "success": "Thank you for supporting the future of the PLEX neighborhood!"
             },
             "fields": {
               "name": {
